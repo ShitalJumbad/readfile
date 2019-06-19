@@ -2,7 +2,7 @@
 Reads the file 
 
 
-Input : takes filePath (in the comtainer)
+Input : takes filePath (in the container)
 Output :
         1) fileName
         2) fileLocation
