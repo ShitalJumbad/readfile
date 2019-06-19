@@ -1,0 +1,42 @@
+{
+  "name": "readFile",
+  "title": "read File Activity",
+  "version": "1.0.0",
+  "type": "flogo:activity",
+  "author": "TIBCO Software Inc.",
+  "display": {
+    "category": "TIBCO",
+    "visible": true,
+
+    "description": "This activity reads file"
+  },
+
+  "ref": "TIBCO/activity/readFile",
+  "inputs": [
+    {
+      "name": "filePath",
+      "type": "string",
+      "required": true
+    }
+  ],
+
+  "outputs": [
+
+    {
+      "name": "fileName",
+      "type": "string"
+    },
+    {
+      "name": "fileLocation",
+      "type": "string"
+    },
+    {
+      "name": "fileContent",
+      "type": "string"
+    },
+    {
+      "name": "fileSize",
+      "type": "integer"
+    }
+  ]
+}
