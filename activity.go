@@ -10,11 +10,11 @@ import (
 )
 
 const (
-    ivField    = "filePath"
-    fileContent    = "fileContent"
+    ivField = "filePath"
+    fileContent = "fileContent"
     fileLocation = "fileLocation"
-    fileName="fileName"
-    fileSize="fileSize"
+    fileName = "fileName"
+    fileSize = "fileSize"
 )
 
 var activityLog = logger.GetLogger("tibco-activity-fileRead")
