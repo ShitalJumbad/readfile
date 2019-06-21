@@ -1,4 +1,4 @@
-package readFile
+package readfile
 
 import (
     "github.com/TIBCOSoftware/flogo-lib/core/activity"
